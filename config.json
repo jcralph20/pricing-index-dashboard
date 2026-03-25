@@ -1,0 +1,105 @@
+{
+  "app_title": "Procurement Index Hub (Sample)",
+  "default_range": "5Y",
+  "series": [
+    {
+      "key": "corrugated_shipping_containers_ppi",
+      "name": "Corrugated Shipping Containers (PPI, Commodity)",
+      "series_id": "WPU09150301",
+      "source": "FRED",
+      "category": "Corrugated",
+      "preferred_view": "index",
+      "frequency": "Monthly"
+    },
+    {
+      "key": "corrugated_paperboard_sheets_rolls_ppi",
+      "name": "Corrugated Paperboard in Sheets & Rolls (PPI, Industry)",
+      "series_id": "PCU32221132221105",
+      "source": "FRED",
+      "category": "Corrugated",
+      "preferred_view": "index",
+      "frequency": "Monthly"
+    },
+    {
+      "key": "plastic_resins_materials_ppi",
+      "name": "Plastic Resins & Materials (PPI, Commodity)",
+      "series_id": "WPU066",
+      "source": "FRED",
+      "category": "Resins (proxy)",
+      "preferred_view": "index",
+      "frequency": "Monthly"
+    },
+    {
+      "key": "thermoplastic_resins_ppi",
+      "name": "Thermoplastic Resins & Plastics Materials (PPI, Industry)",
+      "series_id": "PCU3252113252111",
+      "source": "FRED",
+      "category": "Resins (proxy)",
+      "preferred_view": "index",
+      "frequency": "Monthly"
+    },
+    {
+      "key": "polyethylene_film_sheet_ppi",
+      "name": "Unlaminated Polyethylene Film & Sheet (PPI, Commodity)",
+      "series_id": "WPU072205011",
+      "source": "FRED",
+      "category": "Resins (proxy)",
+      "preferred_view": "index",
+      "frequency": "Monthly"
+    },
+    {
+      "key": "freight_tsi",
+      "name": "Freight Transportation Services Index (TSI Freight)",
+      "series_id": "TSIFRGHT",
+      "source": "FRED",
+      "category": "Freight",
+      "preferred_view": "index",
+      "frequency": "Monthly"
+    },
+    {
+      "key": "truckload_ppi",
+      "name": "General Freight Trucking, Long-Distance Truckload (PPI)",
+      "series_id": "PCU484121484121",
+      "source": "FRED",
+      "category": "Freight",
+      "preferred_view": "index",
+      "frequency": "Monthly"
+    },
+    {
+      "key": "diesel_sales_price",
+      "name": "US Diesel Sales Price (Retail)",
+      "series_id": "GASDESW",
+      "source": "FRED",
+      "category": "Energy",
+      "preferred_view": "spot",
+      "frequency": "Weekly"
+    },
+    {
+      "key": "henry_hub_gas",
+      "name": "Henry Hub Natural Gas Spot Price",
+      "series_id": "DHHNGSP",
+      "source": "FRED",
+      "category": "Energy",
+      "preferred_view": "spot",
+      "frequency": "Daily"
+    },
+    {
+      "key": "wti_crude",
+      "name": "WTI Crude Oil Spot Price (Cushing)",
+      "series_id": "DCOILWTICO",
+      "source": "FRED",
+      "category": "Energy",
+      "preferred_view": "spot",
+      "frequency": "Daily"
+    },
+    {
+      "key": "brent_crude",
+      "name": "Brent Crude Oil Spot Price (Europe)",
+      "series_id": "DCOILBRENTEU",
+      "source": "FRED",
+      "category": "Energy",
+      "preferred_view": "spot",
+      "frequency": "Daily"
+    }
+  ]
+}
